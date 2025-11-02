@@ -1,11 +1,11 @@
-# 📞 Contact List App (React)
+###Contact List App (React)
 
 A modern, responsive **Contact Management Web App** built with **React.js**.  
 This project demonstrates frontend development skills — API simulation, state management with React hooks, local storage persistence, and fully responsive UI design.
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 <img width="1366" height="688" alt="image" src="https://github.com/user-attachments/assets/1ea678ac-4dc1-4469-a160-13ce34d3fa04" />
 
 ---
@@ -21,7 +21,7 @@ This project demonstrates frontend development skills — API simulation, state 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |-------------|----------|
@@ -44,7 +44,7 @@ This project demonstrates frontend development skills — API simulation, state 
 
 ---
 
-## 🧩 Folder Structure
+## Folder Structure
 
 contact-list/
 │
@@ -88,7 +88,7 @@ contact-list/
 
 ---
 
-## 🧠 Persistent Storage
+## Persistent Storage
 
 Contacts are stored locally using the **browser’s localStorage**.  
 To manually delete all saved contacts:
@@ -101,14 +101,14 @@ Or just open your browser console and run:
 ```js
 localStorage.clear();
 Setup and Installation
-1️⃣ Clone the repository
+1. Clone the repository
 git clone https://github.com/yourusername/contact-list-app.git
 cd contact-list-app
 
-2️⃣ Install dependencies
+2. Install dependencies
 npm install
 
-3️⃣ Start the project
+3. Start the project
 npm start
 
 
@@ -123,7 +123,7 @@ Click “New Project” → Import GitHub Repository
 
 Select this repo and click Deploy
 
-That’s it! Your app is live 🎉
+That’s it! Your app is live...
 
 #Deploy on Netlify
 
@@ -166,7 +166,7 @@ Writing modular, maintainable React code
 Smitirani Haripal
 India
 Frontend Developer | React Enthusiast
-🔗 GitHub: https://github.com/Smiti02
+# GitHub: https://github.com/Smiti02
  · LinkedIn: https://www.linkedin.com/in/smitirani-haripal-18a331282/
 
  License
