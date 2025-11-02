@@ -1,0 +1,200 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #dfe9f3 0%, #ffffff 100%);
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: #333;
+}
+
+/*Main Container */
+.app-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: center;
+  transition: max-width 0.3s ease;
+}
+
+.w-full.max-w-3xl.bg-white.rounded-2xl.shadow-lg.p-6 {
+    width: 1000px;
+}
+
+.mt-8 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Heading */
+.app-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 2.7rem;
+  font-weight: 700;
+  color: #0078d7;
+  margin-bottom: 20px;
+}
+
+.app-title svg {
+  color: #0078d7;
+}
+
+/*Search Bar */
+.search-input {
+  width: 80%;
+  max-width: 400px;
+  padding: 12px 18px;
+  border: 2px solid #0078d7;
+  border-radius: 30px;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 120, 215, 0.1);
+}
+
+.search-input:focus {
+  box-shadow: 0 4px 12px rgba(0, 120, 215, 0.3);
+  border-color: #005fa3;
+}
+
+/*Contact Grid */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+/*Contact Card */
+.contact-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 25px 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 120, 215, 0.2);
+}
+
+/*Contact Info */
+.contact-card .icon {
+  font-size: 2rem;
+  color: #0078d7;
+  margin-bottom: 10px;
+}
+
+.contact-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.contact-detail {
+  color: #555;
+  margin: 6px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/*Icons */
+.contact-detail svg {
+  color: #0078d7;
+  font-size: 1.1rem;
+}
+
+/*Add Contact Button */
+.add-contact-btn {
+  background: #0078d7;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 1rem;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-contact-btn:hover {
+  background: #005fa3;
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 120, 215, 0.3);
+}
+
+/*Responsive Styles */
+
+/* Tablets */
+@media (max-width: 992px) {
+  .app-container {
+    padding: 30px;
+  }
+
+  .app-title {
+    font-size: 2rem;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .app-container {
+    padding: 20px;
+    margin: 20px auto;
+    width: 95%;
+  }
+
+  .app-title {
+    font-size: 1.8rem;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-card {
+    padding: 18px;
+  }
+
+  button {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Very small devices */
+@media (max-width: 480px) {
+  .app-title {
+    font-size: 1.5rem;
+  }
+
+  .search-input {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .contact-card {
+    padding: 15px;
+  }
+
+  .contact-name {
+    font-size: 1.1rem;
+  }
+}
